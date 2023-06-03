@@ -418,5 +418,404 @@ def DocList():
                 
                 else:
                     raise Exception('Please Enter Speciality among:'+'\n'+'Cardiologist'+'\n'+'General Physician'+'\n'+'Radiologist'+'\n'+'ENT'+'\n'+'Emergency Medicine Trauma'+'\n'+'Obstetrics and Gynaecologist')
+             elif location.get()=="Kozhikode":  
+                if Ds_Name.get()=='Cardiologist':
+                    global mylabelKf111
+                    global mylabelKf12
+                    global mylabelKf13
+                    global mylabelKf14
+                    global mylabelKf15
+                    global mylabelKf16
+                    
+                    global mylabelKf211
+                    global mylabelKf22
+                    global mylabelKf23
+                    global mylabelKf24
+                    global mylabelKf25
+                    global mylabelKf26
+                    
+                    global mylabelKf311
+                    global mylabelKf32
+                    global mylabelKf33
+                    global mylabelKf34
+                    global mylabelKf35
+                    global mylabelKf36
+
+                    mylabelKf111=Label(frame1,text='Dr. SatyaNarayanaRao',font=("Halvetica",15))
+                    mylabelKf12=Label(frame1,text='MBBS,MD,MS',font=("Halvetica",15))
+                    mylabelKf13=Label(frame1,text='Cardiologist',font=("Halvetica",15))
+                    mylabelKf14=Label(frame1,text='Hospital : Government hospital,Kozhikode ',font=("Halvetica",15))
+                    mylabelKf15=Label(frame1,text='Time Slot: 8:00 AM-5:00 PM ',font=("Halvetica",15))
+                    mylabelKf16=Label(frame1,text='Land line :0471 2318744 ',font=("Halvetica",15))
+                    
+                    mylabelKf211=Label(frame2,text='Dr. Hema Sunder Gupta  ',font=("Halvetica",15))
+                    mylabelKf22=Label(frame2,text='Senior Consultant ,MBBS,MD,MS(Cardiology) ',font=("Halvetica",15))
+                    mylabelKf23=Label(frame2,text='Cardiologist',font=("Halvetica",15))
+                    mylabelKf24=Label(frame2,text='Hospital :Starcare,Kozhikode,, 673017 ',font=("Halvetica",15))
+                    mylabelKf25=Label(frame2,text='Time slot : 4:30 PM-11.30 PM' ,font=("Halvetica",15))
+                    mylabelKf26=Label(frame2,text='Land line : 0471 2975498 ',font=("Halvetica",15))
+                    
+                    mylabelKf311=Label(frame3,text='Dr. Vaibhav Mittal ',font=("Halvetica",15))
+                    mylabelKf32=Label(frame3,text='MBBS ',font=("Halvetica",15))
+                    mylabelKf33=Label(frame3,text='Cardiologist',font=("Halvetica",15))
+                    mylabelKf34=Label(frame3,text='Hospital :  Baby Memorial College,kozhikode',font=("Halvetica",15))
+                    mylabelKf35=Label(frame3,text='Time slot: 8:30AM-2PM ',font=("Halvetica",15))
+                    mylabelKf36=Label(frame3,text='Land line : 0471 2237695 ',font=("Halvetica",15))
+                    
+                    mylabelKf111.grid(row=0,column=0,sticky=W)
+                    mylabelKf12.grid(row=1,column=0,sticky=W)
+                    mylabelKf13.grid(row=2,column=0,sticky=W)
+                    mylabelKf14.grid(row=3,column=0,sticky=W)
+                    mylabelKf15.grid(row=4,column=0,sticky=W)
+                    mylabelKf16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKf211.grid(row=0,column=0,sticky=W)
+                    mylabelKf22.grid(row=1,column=0,sticky=W)
+                    mylabelKf23.grid(row=2,column=0,sticky=W)
+                    mylabelKf24.grid(row=3,column=0,sticky=W)
+                    mylabelKf25.grid(row=4,column=0,sticky=W)
+                    mylabelKf26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKf311.grid(row=0,column=0,sticky=W)
+                    mylabelKf32.grid(row=1,column=0,sticky=W)
+                    mylabelKf33.grid(row=2,column=0,sticky=W)
+                    mylabelKf34.grid(row=3,column=0,sticky=W)
+                    mylabelKf35.grid(row=4,column=0,sticky=W)
+                    mylabelKf36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+                    
+                elif Ds_Name.get()=='Emergency Medicien and Trauma':
+                    global mylabelKef111
+                    global mylabelKef12
+                    global mylabelKef13
+                    global mylabelKef14
+                    global mylabelKef15
+                    global mylabelKef16
+                    
+                    global mylabelKef211
+                    global mylabelKef22
+                    global mylabelKef23
+                    global mylabelKef24
+                    global mylabelKef25
+                    global mylabelKef26
+                    
+                    global mylabelKef311
+                    global mylabelKef32
+                    global mylabelKef33
+                    global mylabelKef34
+                    global mylabelKef35
+                    global mylabelKef36
+
+                    mylabelKef111=Label(frame1,text='Dr. Hrishikesh Parappol ',font=("Halvetica",15))
+                    mylabelKef12=Label(frame1,text='MBBS, DNB(Emergency medicine)',font=("Halvetica",15))
+                    mylabelKef13=Label(frame1,text='EMERGENCY MEDICINE AND TRAUMA',font=("Halvetica",15))
+                    mylabelKef14=Label(frame1,text='Hospital: Govt ,near stadium, Kozhikode',font=("Halvetica",15))
+                    mylabelKef15=Label(frame1,text='Time Slot:8AM-5PM',font=("Halvetica",15))
+                    mylabelKef16=Label(frame1,text='Land line : 0471 2157952',font=("Halvetica",15))
+                    
+                    mylabelKef211=Label(frame2,text='Dr.Divyasree  ',font=("Halvetica",15))
+                    mylabelKef22=Label(frame2,text='MBBS',font=("Halvetica",15))
+                    mylabelKef23=Label(frame2,text='EMERGENCY MEDICINE AND TRAUMA',font=("Halvetica",15))
+                    mylabelKef24=Label(frame2,text='Hospital : Multi speciality , Kozhikode',font=("Halvetica",15))
+                    mylabelKef25=Label(frame2,text='Time slot: 8AM-2PM',font=("Halvetica",15))
+                    mylabelKef26=Label(frame2,text='Land line : 0471 2495813',font=("Halvetica",15))
+                    
+                    mylabelKef311=Label(frame3,text='Dr. Ashok Sudhakaran ',font=("Halvetica",15))
+                    mylabelKef32=Label(frame3,text='MBBS',font=("Halvetica",15))
+                    mylabelKef33=Label(frame3,text='EMERGENCY MEDICINE AND TRAUMA',font=("Halvetica",15))
+                    mylabelKef34=Label(frame3,text='Hospital :Kozhikode CoOperative Hospital,Kozhikode',font=("Halvetica",15))
+                    mylabelKef35=Label(frame3,text='Time slot: 3PM-8PM',font=("Halvetica",15))
+                    mylabelKef36=Label(frame3,text='Land line : 0471 2725498 ',font=("Halvetica",15))
+                    
+                    mylabelKef111.grid(row=0,column=0,sticky=W)
+                    mylabelKef12.grid(row=1,column=0,sticky=W)
+                    mylabelKef13.grid(row=2,column=0,sticky=W)
+                    mylabelKef14.grid(row=3,column=0,sticky=W)
+                    mylabelKef15.grid(row=4,column=0,sticky=W)
+                    mylabelKef16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKef211.grid(row=0,column=0,sticky=W)
+                    mylabelKef22.grid(row=1,column=0,sticky=W)
+                    mylabelKef23.grid(row=2,column=0,sticky=W)
+                    mylabelKef24.grid(row=3,column=0,sticky=W)
+                    mylabelKef25.grid(row=4,column=0,sticky=W)
+                    mylabelKef26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKef311.grid(row=0,column=0,sticky=W)
+                    mylabelKef32.grid(row=1,column=0,sticky=W)
+                    mylabelKef33.grid(row=2,column=0,sticky=W)
+                    mylabelKef34.grid(row=3,column=0,sticky=W)
+                    mylabelKef35.grid(row=4,column=0,sticky=W)
+                    mylabelKef36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+                            
+                elif Ds_Name.get()=='General Physician':
+                    global mylabelKgf111
+                    global mylabelKgf12
+                    global mylabelKgf13
+                    global mylabelKgf14
+                    global mylabelKgf15
+                    global mylabelKgf16
+                    
+                    global mylabelKgf211
+                    global mylabelKgf22
+                    global mylabelKgf23
+                    global mylabelKgf24
+                    global mylabelKgf25
+                    global mylabelKgf26
+                    
+                    global mylabelKgf311
+                    global mylabelKgf32
+                    global mylabelKgf33
+                    global mylabelKgf34
+                    global mylabelKgf35
+                    global mylabelKgf36
+
+                    mylabelKgf111=Label(frame1,text='Dr.Somesh Nambiar ',font=("Halvetica",15))
+                    mylabelKgf12=Label(frame1,text='MBBS, MD in General Medicine',font=("Halvetica",15))
+                    mylabelKgf13=Label(frame1,text='GENERAL PHYSICIAN',font=("Halvetica",15))
+                    mylabelKgf14=Label(frame1,text='Hospital: Baby Memorial Hospital,Kozhikode ',font=("Halvetica",15))
+                    mylabelKgf15=Label(frame1,text='Time Slot:8PM-2PM',font=("Halvetica",15))
+                    mylabelKgf16=Label(frame1,text='Land line : 0471 2917575 ',font=("Halvetica",15))
+                    
+                    mylabelKgf211=Label(frame2,text='Dr.Radhakrishnan Ellath  ',font=("Halvetica",15))
+                    mylabelKgf22=Label(frame2,text='MBBS,MD ',font=("Halvetica",15))
+                    mylabelKgf23=Label(frame2,text='GENERAL PHYSICIAN',font=("Halvetica",15))
+                    mylabelKgf24=Label(frame2,text='Hospital : Government hospital   Kozhikode',font=("Halvetica",15))
+                    mylabelKgf25=Label(frame2,text='Time slot: 1PM-6:30PM',font=("Halvetica",15))
+                    mylabelKgf26=Label(frame2,text='Land line :  0471 2834473  ',font=("Halvetica",15))
+                    
+                    mylabelKgf311=Label(frame3,text='Dr.Hamood harthi ',font=("Halvetica",15))
+                    mylabelKgf32=Label(frame3,text='MSc in Physiology ',font=("Halvetica",15))
+                    mylabelKgf33=Label(frame3,text='GENERAL PHYSICIAN',font=("Halvetica",15))
+                    mylabelKgf34=Label(frame3,text='Hospital : Malabar Hospital,Kozhikode',font=("Halvetica",15))
+                    mylabelKgf35=Label(frame3,text='Time slot: 5PM-10PM',font=("Halvetica",15))
+                    mylabelKgf36=Label(frame3,text='Land line : 0471 2382869  ',font=("Halvetica",15))
+                    
+                    mylabelKgf111.grid(row=0,column=0,sticky=W)
+                    mylabelKgf12.grid(row=1,column=0,sticky=W)
+                    mylabelKgf13.grid(row=2,column=0,sticky=W)
+                    mylabelKgf14.grid(row=3,column=0,sticky=W)
+                    mylabelKgf15.grid(row=4,column=0,sticky=W)
+                    mylabelKgf16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKgf211.grid(row=0,column=0,sticky=W)
+                    mylabelKgf22.grid(row=1,column=0,sticky=W)
+                    mylabelKgf23.grid(row=2,column=0,sticky=W)
+                    mylabelKgf24.grid(row=3,column=0,sticky=W)
+                    mylabelKgf25.grid(row=4,column=0,sticky=W)
+                    mylabelKgf26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKgf311.grid(row=0,column=0,sticky=W)
+                    mylabelKgf32.grid(row=1,column=0,sticky=W)
+                    mylabelKgf33.grid(row=2,column=0,sticky=W)
+                    mylabelKgf34.grid(row=3,column=0,sticky=W)
+                    mylabelKgf35.grid(row=4,column=0,sticky=W)
+                    mylabelKgf36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+                    
+                elif Ds_Name.get()=='Obstetrics and Gynaecologist':
+                    global mylabelKof111
+                    global mylabelKof12
+                    global mylabelKof13
+                    global mylabelKof14
+                    global mylabelKof15
+                    global mylabelKof16
                 
+                    global mylabelKof211
+                    global mylabelKof22
+                    global mylabelKof23
+                    global mylabelKof24
+                    global mylabelKof25
+                    global mylabelKof26
+                    
+                    global mylabelKof311
+                    global mylabelKof32
+                    global mylabelKof33
+                    global mylabelKof34
+                    global mylabelKof35
+                    global mylabelKof36
+
+                    mylabelKof111=Label(frame1,text='Dr. Abdul Vadoodh',font=("Halvetica",15))
+                    mylabelKof12=Label(frame1,text='MBBS, DNB Gynecology  ',font=("Halvetica",15))
+                    mylabelKof13=Label(frame1,text='Obstetrics and Gynaecologist',font=("Halvetica",15))
+                    mylabelKof14=Label(frame1,text='Hospital:Government Women Hospital,Kozhikode',font=("Halvetica",15))
+                    mylabelKof15=Label(frame1,text='Time Slot:11AM-5PM',font=("Halvetica",15))
+                    mylabelKof16=Label(frame1,text='Land line : 0471 2468629 ',font=("Halvetica",15))
+                    
+                    mylabelKof211=Label(frame2,text='Dr. Greeshma Chandran  ',font=("Halvetica",15))
+                    mylabelKof22=Label(frame2,text='MBBS, MD Gynecology',font=("Halvetica",15))
+                    mylabelKof23=Label(frame2,text='Obstetrics and Gynaecologist',font=("Halvetica",15))
+                    mylabelKof24=Label(frame2,text='Hospital :  Starcare Hospital,Kozhikode ',font=("Halvetica",15))
+                    mylabelKof25=Label(frame2,text='Time slot: 3PM-5PM',font=("Halvetica",15))
+                    mylabelKof26=Label(frame2,text='Land line : 0491 2200667  ',font=("Halvetica",15))
+                    
+                    mylabelKof311=Label(frame3,text='Dr. Radhamani ',font=("Halvetica",15))
+                    mylabelKof32=Label(frame3,text='MBBS,MD Gynecology',font=("Halvetica",15))
+                    mylabelKof33=Label(frame3,text='Obstetrics and Gynaecologist',font=("Halvetica",15))
+                    mylabelKof34=Label(frame3,text='Hospital:Malabar Hospital,Kozhikode',font=("Halvetica",15))
+                    mylabelKof35=Label(frame3,text='Time slot : 10AM-12PM',font=("Halvetica",15))
+                    mylabelKof36=Label(frame3,text='Land line : 0471 2154458   ',font=("Halvetica",15))
+                    
+                    mylabelKof111.grid(row=0,column=0,sticky=W)
+                    mylabelKof12.grid(row=1,column=0,sticky=W)
+                    mylabelKof13.grid(row=2,column=0,sticky=W)
+                    mylabelKof14.grid(row=3,column=0,sticky=W)
+                    mylabelKof15.grid(row=4,column=0,sticky=W)
+                    mylabelKof16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKof211.grid(row=0,column=0,sticky=W)
+                    mylabelKof22.grid(row=1,column=0,sticky=W)
+                    mylabelKof23.grid(row=2,column=0,sticky=W)
+                    mylabelKof24.grid(row=3,column=0,sticky=W)
+                    mylabelKof25.grid(row=4,column=0,sticky=W)
+                    mylabelKof26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKof311.grid(row=0,column=0,sticky=W)
+                    mylabelKof32.grid(row=1,column=0,sticky=W)
+                    mylabelKof33.grid(row=2,column=0,sticky=W)
+                    mylabelKof34.grid(row=3,column=0,sticky=W)
+                    mylabelKof35.grid(row=4,column=0,sticky=W)
+                    mylabelKof36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+                    
+                elif Ds_Name.get()=='Radiologist':
+                    global mylabelKrf111
+                    global mylabelKrf12
+                    global mylabelKrf13
+                    global mylabelKrf14
+                    global mylabelKrf15
+                    global mylabelKrf16
+                
+                    global mylabelKrf211
+                    global mylabelKrf22
+                    global mylabelKrf23
+                    global mylabelKrf24
+                    global mylabelKrf25
+                    global mylabelKrf26
+                    
+                    global mylabelKrf311
+                    global mylabelKrf32
+                    global mylabelKrf33
+                    global mylabelKrf34
+                    global mylabelKrf35
+                    global mylabelKrf36
+
+                    mylabelKrf111=Label(frame1,text='Dr.Asish Mehra ',font=("Halvetica",15))
+                    mylabelKrf12=Label(frame1,text='MBBS, PG in Radiology',font=("Halvetica",15))
+                    mylabelKrf13=Label(frame1,text='Radiologist',font=("Halvetica",15))
+                    mylabelKrf14=Label(frame1,text='Hospital: Government hospital,Kozhikode',font=("Halvetica",15))
+                    mylabelKrf15=Label(frame1,text='Time Slot:10AM-4PM',font=("Halvetica",15))
+                    mylabelKrf16=Label(frame1,text='Land line :  0471 2815378  ',font=("Halvetica",15))
+            
+                    mylabelKrf211=Label(frame2,text='Shibu Mannarath ',font=("Halvetica",15))
+                    mylabelKrf22=Label(frame2,text='Doctor Of Medicine',font=("Halvetica",15))
+                    mylabelKrf23=Label(frame2,text='Radiologist',font=("Halvetica",15))
+                    mylabelKrf24=Label(frame2,text='Hospital :IQRAA Imaging Kozhikode ',font=("Halvetica",15))
+                    mylabelKrf25=Label(frame2,text='Time slot: 24hrs',font=("Halvetica",15))
+                    mylabelKrf26=Label(frame2,text='Land line : 0471 2654698   ',font=("Halvetica",15))
+                    
+                    mylabelKrf311=Label(frame3,text='Dr. Surya Sudhakaran ',font=("Halvetica",15))
+                    mylabelKrf32=Label(frame3,text='MBBS, MS Radiology ',font=("Halvetica",15))
+                    mylabelKrf33=Label(frame3,text='Radiologist',font=("Halvetica",15))
+                    mylabelKrf34=Label(frame3,text='Hospital: Starcare Hospital, Kozhikode,',font=("Halvetica",15))
+                    mylabelKrf35=Label(frame3,text='Time slot : 6PM-10PM',font=("Halvetica",15))
+                    mylabelKrf36=Label(frame3,text='Land line :  0471 2268726   ',font=("Halvetica",15))
+                    
+                    mylabelKrf111.grid(row=0,column=0,sticky=W)
+                    mylabelKrf12.grid(row=1,column=0,sticky=W)
+                    mylabelKrf13.grid(row=2,column=0,sticky=W)
+                    mylabelKrf14.grid(row=3,column=0,sticky=W)
+                    mylabelKrf15.grid(row=4,column=0,sticky=W)
+                    mylabelKrf16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKrf211.grid(row=0,column=0,sticky=W)
+                    mylabelKrf22.grid(row=1,column=0,sticky=W)
+                    mylabelKrf23.grid(row=2,column=0,sticky=W)
+                    mylabelKrf24.grid(row=3,column=0,sticky=W)
+                    mylabelKrf25.grid(row=4,column=0,sticky=W)
+                    mylabelKrf26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKrf311.grid(row=0,column=0,sticky=W)
+                    mylabelKrf32.grid(row=1,column=0,sticky=W)
+                    mylabelKrf33.grid(row=2,column=0,sticky=W)
+                    mylabelKrf34.grid(row=3,column=0,sticky=W)
+                    mylabelKrf35.grid(row=4,column=0,sticky=W)
+                    mylabelKrf36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+                elif Ds_Name.get()=='ENT':
+                    global mylabelKnf111
+                    global mylabelKnf12
+                    global mylabelKnf13
+                    global mylabelKnf14
+                    global mylabelKnf15
+                    global mylabelKnf16
+                
+                    global mylabelKnf211
+                    global mylabelKnf22
+                    global mylabelKnf23
+                    global mylabelKnf24
+                    global mylabelKnf25
+                    global mylabelKnf26
+                
+                    global mylabelKnf311
+                    global mylabelKnf32
+                    global mylabelKnf33
+                    global mylabelKnf34
+                    global mylabelKnf35
+                    global mylabelKnf36
+
+                    mylabelKnf111=Label(frame1,text='Dr. Aneesh Mishra',font=("Halvetica",15))
+                    mylabelKnf12=Label(frame1,text='MBBS, MS ENT',font=("Halvetica",15))
+                    mylabelKnf13=Label(frame1,text='ENT',font=("Halvetica",15))
+                    mylabelKnf14=Label(frame1,text='Hospital: Government hospital,Kozhikode,',font=("Halvetica",15))
+                    mylabelKnf15=Label(frame1,text='Time Slot:9AM-3PM',font=("Halvetica",15))
+                    mylabelKnf16=Label(frame1,text='Land line : 0471 2697125 ',font=("Halvetica",15))
+            
+                    mylabelKnf211=Label(frame2,text='Dr. Umesh Pavukandy',font=("Halvetica",15))
+                    mylabelKnf22=Label(frame2,text='MBBS,PG ENT ',font=("Halvetica",15))
+                    mylabelKnf23=Label(frame2,text='ENT',font=("Halvetica",15))
+                    mylabelKnf24=Label(frame2,text='Hospital : Malabar Hospital,Kozhikode',font=("Halvetica",15))
+                    mylabelKnf25=Label(frame2,text='Time slot: 1PM-8PM',font=("Halvetica",15))
+                    mylabelKnf26=Label(frame2,text='Land line :  0471 2572568  ',font=("Halvetica",15))
+                    
+                    mylabelKnf311=Label(frame3,text='Dr. Amal Thomas',font=("Halvetica",15))
+                    mylabelKnf32=Label(frame3,text='MBBS, MS ENT ',font=("Halvetica",15))
+                    mylabelKnf33=Label(frame3,text='ENT',font=("Halvetica",15))
+                    mylabelKnf34=Label(frame3,text='Hospital :Baby Memorial College,Kozhikode',font=("Halvetica",15))
+                    mylabelKnf35=Label(frame3,text='Time slot : 10AM-4PM',font=("Halvetica",15))
+                    mylabelKnf36=Label(frame3,text='Land line :  0471 2788951    ',font=("Halvetica",15))
+                    
+                    mylabelKnf111.grid(row=0,column=0,sticky=W)
+                    mylabelKnf12.grid(row=1,column=0,sticky=W)
+                    mylabelKnf13.grid(row=2,column=0,sticky=W)
+                    mylabelKnf14.grid(row=3,column=0,sticky=W)
+                    mylabelKnf15.grid(row=4,column=0,sticky=W)
+                    mylabelKnf16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKnf211.grid(row=0,column=0,sticky=W)
+                    mylabelKnf22.grid(row=1,column=0,sticky=W)
+                    mylabelKnf23.grid(row=2,column=0,sticky=W)
+                    mylabelKnf24.grid(row=3,column=0,sticky=W)
+                    mylabelKnf25.grid(row=4,column=0,sticky=W)
+                    mylabelKnf26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelKnf311.grid(row=0,column=0,sticky=W)
+                    mylabelKnf32.grid(row=1,column=0,sticky=W)
+                    mylabelKnf33.grid(row=2,column=0,sticky=W)
+                    mylabelKnf34.grid(row=3,column=0,sticky=W)
+                    mylabelKnf35.grid(row=4,column=0,sticky=W)
+                    mylabelKnf36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+# Raising Exception if the Doctors with inputed Speciality are not availabe and by that telling the user that which type of specialists are availabe.
+                else:
+                    raise Exception('Please Enter Speciality among:'+'\n'+'Cardiologist'+'\n'+'General Physician'+'\n'+'Radiologist'+'\n'+'ENT'+'\n'+'Emergency Medicine Trauma'+'\n'+'Obstetrics and Gynaecologist')  
+# Raising Exception if the inputed city's data is not available and telling to user that please use these given city: 
+            else:
+                raise Exception('Please Enter City:'+'\n'+'Palakkad'+'\n'+'Kozhikode')
+    except  Exception as e:
+        global mylabel1
+        mylabel1=Label(frame1,text=e,fg='Dark Red',font=("Halvetica",15))
+        mylabel1.grid(row=0,column=0,columnspan=4,pady=10)
+        prjt.configure(background='Red')
 
