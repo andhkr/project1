@@ -285,5 +285,138 @@ def DocList():
                     mylabelof35.grid(row=4,column=0,sticky=W)
                     mylabelof36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='Light Blue')
+                    elif Ds_Name.get()=='Radiologist':
+                    global mylabelrf111
+                    global mylabelrf12
+                    global mylabelrf13
+                    global mylabelrf14
+                    global mylabelrf15
+                    global mylabelrf16
+                
+                    global mylabelrf211
+                    global mylabelrf22
+                    global mylabelrf23
+                    global mylabelrf24
+                    global mylabelrf25
+                    global mylabelrf26
                     
+                    global mylabelrf311
+                    global mylabelrf32
+                    global mylabelrf33
+                    global mylabelrf34
+                    global mylabelrf35
+                    global mylabelrf36
+
+                    mylabelrf111=Label(frame1,text='Dr Amit Aggarwal',font=("Halvetica",15))
+                    mylabelrf12=Label(frame1,text='MBBS , DMRD , Consultant Radiologist',font=("Halvetica",15))
+                    mylabelrf13=Label(frame1,text='Radiologist',font=("Halvetica",15))
+                    mylabelrf14=Label(frame1,text='Hospital: Govt ,near stadium, Palakkad',font=("Halvetica",15))
+                    mylabelrf15=Label(frame1,text='Time Slot:9AM to 1PM,5PM to 6:30PM',font=("Halvetica",15))
+                    mylabelrf16=Label(frame1,text='Land line : 0491 2298767 ',font=("Halvetica",15))
+            
+                    mylabelrf211=Label(frame2,text='Dr Mitsuri',font=("Halvetica",15))
+                    mylabelrf22=Label(frame2,text='MBBS , DMRD',font=("Halvetica",15))
+                    mylabelrf23=Label(frame2,text='Radiologist',font=("Halvetica",15))
+                    mylabelrf24=Label(frame2,text='Hospital : Multi speciality , Palakkad',font=("Halvetica",15))
+                    mylabelrf25=Label(frame2,text='Time slot: 10am to 1pm, 4pm to 5pm',font=("Halvetica",15))
+                    mylabelrf26=Label(frame2,text='Land line : 0491 2378787   ',font=("Halvetica",15))
+                    
+                    mylabelrf311=Label(frame3,text='Dr Sudeep Rathod',font=("Halvetica",15))
+                    mylabelrf32=Label(frame3,text='MBBS , DMRD',font=("Halvetica",15))
+                    mylabelrf33=Label(frame3,text='Radiologist',font=("Halvetica",15))
+                    mylabelrf34=Label(frame3,text='Hospital: Medico global(medical college),PALAKKAD',font=("Halvetica",15))
+                    mylabelrf35=Label(frame3,text='Time slot : 10am to 1pm,3pm to 5:30pm',font=("Halvetica",15))
+                    mylabelrf36=Label(frame3,text='Land line : 0491 2289067   ',font=("Halvetica",15))
+                    
+                    mylabelrf111.grid(row=0,column=0,sticky=W)
+                    mylabelrf12.grid(row=1,column=0,sticky=W)
+                    mylabelrf13.grid(row=2,column=0,sticky=W)
+                    mylabelrf14.grid(row=3,column=0,sticky=W)
+                    mylabelrf15.grid(row=4,column=0,sticky=W)
+                    mylabelrf16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelrf211.grid(row=0,column=0,sticky=W)
+                    mylabelrf22.grid(row=1,column=0,sticky=W)
+                    mylabelrf23.grid(row=2,column=0,sticky=W)
+                    mylabelrf24.grid(row=3,column=0,sticky=W)
+                    mylabelrf25.grid(row=4,column=0,sticky=W)
+                    mylabelrf26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelrf311.grid(row=0,column=0,sticky=W)
+                    mylabelrf32.grid(row=1,column=0,sticky=W)
+                    mylabelrf33.grid(row=2,column=0,sticky=W)
+                    mylabelrf34.grid(row=3,column=0,sticky=W)
+                    mylabelrf35.grid(row=4,column=0,sticky=W)
+                    mylabelrf36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+                elif Ds_Name.get()=='ENT':
+                    global mylabelnf111
+                    global mylabelnf12
+                    global mylabelnf13
+                    global mylabelnf14
+                    global mylabelnf15
+                    global mylabelnf16
+                
+                    global mylabelnf211
+                    global mylabelnf22
+                    global mylabelnf23
+                    global mylabelnf24
+                    global mylabelnf25
+                    global mylabelnf26
+                
+                    global mylabelnf311
+                    global mylabelnf32
+                    global mylabelnf33
+                    global mylabelnf34
+                    global mylabelnf35
+                    global mylabelnf36
+
+                    mylabelnf111=Label(frame1,text='Dr Mitesh Patel',font=("Halvetica",15))
+                    mylabelnf12=Label(frame1,text='MBBs , DNB ,D.L.O',font=("Halvetica",15))
+                    mylabelnf13=Label(frame1,text='ENT',font=("Halvetica",15))
+                    mylabelnf14=Label(frame1,text='Hospital: Govt ,near stadium, Palakkad',font=("Halvetica",15))
+                    mylabelnf15=Label(frame1,text='Time Slot:11AM to 1PM,6PM to 7:30PM',font=("Halvetica",15))
+                    mylabelnf16=Label(frame1,text='Land line : 0491 2234967',font=("Halvetica",15))
+            
+                    mylabelnf211=Label(frame2,text='Dr Kalpana Mehan',font=("Halvetica",15))
+                    mylabelnf22=Label(frame2,text='MBBs , MS (ENT) , DNB',font=("Halvetica",15))
+                    mylabelnf23=Label(frame2,text='ENT',font=("Halvetica",15))
+                    mylabelnf24=Label(frame2,text='Hospital : Multi speciality , Kanjikode',font=("Halvetica",15))
+                    mylabelnf25=Label(frame2,text='Time slot: 11am to 1pm, 6pm to 7:30pm',font=("Halvetica",15))
+                    mylabelnf26=Label(frame2,text='Land line : 0491 2254967   ',font=("Halvetica",15))
+                    
+                    mylabelnf311=Label(frame3,text='Dr David',font=("Halvetica",15))
+                    mylabelnf32=Label(frame3,text='MBBS , MS (ENT)',font=("Halvetica",15))
+                    mylabelnf33=Label(frame3,text='ENT',font=("Halvetica",15))
+                    mylabelnf34=Label(frame3,text='Hospital : Clinic , Palakkad',font=("Halvetica",15))
+                    mylabelnf35=Label(frame3,text='Time slot : 11am to 1pm,6:30pm to 8:30pm',font=("Halvetica",15))
+                    mylabelnf36=Label(frame3,text='Land line : 0491 2278967    ',font=("Halvetica",15))
+                    
+                    mylabelnf111.grid(row=0,column=0,sticky=W)
+                    mylabelnf12.grid(row=1,column=0,sticky=W)
+                    mylabelnf13.grid(row=2,column=0,sticky=W)
+                    mylabelnf14.grid(row=3,column=0,sticky=W)
+                    mylabelnf15.grid(row=4,column=0,sticky=W)
+                    mylabelnf16.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelnf211.grid(row=0,column=0,sticky=W)
+                    mylabelnf22.grid(row=1,column=0,sticky=W)
+                    mylabelnf23.grid(row=2,column=0,sticky=W)
+                    mylabelnf24.grid(row=3,column=0,sticky=W)
+                    mylabelnf25.grid(row=4,column=0,sticky=W)
+                    mylabelnf26.grid(row=5,column=0,sticky=W)
+                    
+                    mylabelnf311.grid(row=0,column=0,sticky=W)
+                    mylabelnf32.grid(row=1,column=0,sticky=W)
+                    mylabelnf33.grid(row=2,column=0,sticky=W)
+                    mylabelnf34.grid(row=3,column=0,sticky=W)
+                    mylabelnf35.grid(row=4,column=0,sticky=W)
+                    mylabelnf36.grid(row=5,column=0,sticky=W)
+                    prjt.configure(background='Light Blue')
+                                        
+    
+                
+                else:
+                    raise Exception('Please Enter Speciality among:'+'\n'+'Cardiologist'+'\n'+'General Physician'+'\n'+'Radiologist'+'\n'+'ENT'+'\n'+'Emergency Medicine Trauma'+'\n'+'Obstetrics and Gynaecologist')
+                
 
