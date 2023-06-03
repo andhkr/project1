@@ -1007,4 +1007,128 @@ def DocList():
             mylabelKef36.grid_forget()
     except Exception:
         pass
+    try:
+            mylabelKgf111.grid_forget()
+            mylabelKgf12.grid_forget()
+            mylabelKgf13.grid_forget()
+            mylabelKgf14.grid_forget()
+            mylabelKgf15.grid_forget()
+            mylabelKgf16.grid_forget()
+            
+            mylabelKgf211.grid_forget()
+            mylabelKgf22.grid_forget()
+            mylabelKgf23.grid_forget()
+            mylabelKgf24.grid_forget()
+            mylabelKgf25.grid_forget()
+            mylabelKgf26.grid_forget()
+                            
+            mylabelKgf311.grid_forget()
+            mylabelKgf32.grid_forget()
+            mylabelKgf33.grid_forget()
+            mylabelKgf34.grid_forget()
+            mylabelKgf35.grid_forget()
+            mylabelKgf36.grid_forget()
+    except Exception:
+        pass
+    try:
+            mylabelKof111.grid_forget()
+            mylabelKof12.grid_forget()
+            mylabelKof13.grid_forget()
+            mylabelKof14.grid_forget()
+            mylabelKof15.grid_forget()
+            mylabelKof16.grid_forget()
+            
+            mylabelKof211.grid_forget()
+            mylabelKof22.grid_forget()
+            mylabelKof23.grid_forget()
+            mylabelKof24.grid_forget()
+            mylabelKof25.grid_forget()
+            mylabelKof26.grid_forget()
+                            
+            mylabelKof311.grid_forget()
+            mylabelKof32.grid_forget()
+            mylabelKof33.grid_forget()
+            mylabelKof34.grid_forget()
+            mylabelKof35.grid_forget()
+            mylabelKof36.grid_forget()
+    except Exception:
+        pass
+    try:
+            mylabelKrf111.grid_forget()
+            mylabelKrf12.grid_forget()
+            mylabelKrf13.grid_forget()
+            mylabelKrf14.grid_forget()
+            mylabelKrf15.grid_forget()
+            mylabelKrf16.grid_forget()
+            
+            mylabelKrf211.grid_forget()
+            mylabelKrf22.grid_forget()
+            mylabelKrf23.grid_forget()
+            mylabelKrf24.grid_forget()
+            mylabelKrf25.grid_forget()
+            mylabelKrf26.grid_forget()
+                            
+            mylabelKrf311.grid_forget()
+            mylabelKrf32.grid_forget()
+            mylabelKrf33.grid_forget()
+            mylabelKrf34.grid_forget()
+            mylabelKrf35.grid_forget()
+            mylabelKrf36.grid_forget()
+    except Exception:
+        pass   
+    try:
+            mylabelKnf111.grid_forget()
+            mylabelKnf12.grid_forget()
+            mylabelKnf13.grid_forget()
+            mylabelKnf14.grid_forget()
+            mylabelKnf15.grid_forget()
+            mylabelKnf16.grid_forget()
+            
+            mylabelKnf211.grid_forget()
+            mylabelKnf22.grid_forget()
+            mylabelKnf23.grid_forget()
+            mylabelKnf24.grid_forget()
+            mylabelKnf25.grid_forget()
+            mylabelKnf26.grid_forget()
+                        
+            mylabelKnf311.grid_forget()
+            mylabelKnf32.grid_forget()
+            mylabelKnf33.grid_forget()
+            mylabelKnf34.grid_forget()
+            mylabelKnf35.grid_forget()
+            mylabelKnf36.grid_forget()
+    except Exception:
+        pass 
+    try:
+        mylabel1.grid_forget()
+    except Exception :
+        pass
+    
 
+# Create Entry boxexs
+location=Entry(prjt,width=20)
+location.grid(row=0,column=1,pady=5)
+Ds_Name=Entry(prjt,width=20)
+Ds_Name.grid(row=0,column=3,pady=5)
+
+# # creating labels
+loctl=Label(prjt,text='Location')
+loctl.grid(row=0,column=0,pady=5)
+Ds=Label(prjt,text='Doctor Speciality')
+Ds.grid(row=0,column=2,pady=5)
+
+
+
+# create buttons
+Sbtn=Button(prjt,text='Search',command=DocList)
+Sbtn.grid(row=1,column=0,columnspan=4,pady=10,ipadx=202)
+
+okbtn=Button(prjt,text='Ok',command=Clear)
+okbtn.grid(row=6,column=0,columnspan=4,pady=10)
+    
+
+
+
+
+
+prjt.mainloop()
