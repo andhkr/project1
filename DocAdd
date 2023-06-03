@@ -1,1 +1,20 @@
+from tkinter import *
+from PIL import ImageTk,Image
+
+prjt = Tk()
+
+prjt.title('Doctors')
+iconi = PhotoImage(file='Images/doctor.png')  
+prjt.iconphoto(True, iconi)
+prjt.geometry('650x635')
+prjt.configure(background='Light Blue')
+
+# Create Frame
+frame1=LabelFrame(prjt,padx=50)
+frame1.grid(row=3,column=0,columnspan=4,pady=10,sticky=N+E+W+S)
+frame2=LabelFrame(prjt,padx=50)
+frame2.grid(row=4,column=0,columnspan=4,pady=10,sticky=N+E+W+S)
+frame3=LabelFrame(prjt,padx=50,)
+frame3.grid(row=5,column=0,columnspan=4,pady=10,sticky=N+E+W+S)
+
 
