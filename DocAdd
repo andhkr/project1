@@ -913,5 +913,98 @@ def DocList():
             mylabelof35.grid_forget()
             mylabelof36.grid_forget()
     except Exception:
+         pass
+        try:
+            mylabelrf111.grid_forget()
+            mylabelrf12.grid_forget()
+            mylabelrf13.grid_forget()
+            mylabelrf14.grid_forget()
+            mylabelrf15.grid_forget()
+            mylabelrf16.grid_forget()
+            
+            mylabelrf211.grid_forget()
+            mylabelrf22.grid_forget()
+            mylabelrf23.grid_forget()
+            mylabelrf24.grid_forget()
+            mylabelrf25.grid_forget()
+            mylabelrf26.grid_forget()
+                            
+            mylabelrf311.grid_forget()
+            mylabelrf32.grid_forget()
+            mylabelrf33.grid_forget()
+            mylabelrf34.grid_forget()
+            mylabelrf35.grid_forget()
+            mylabelrf36.grid_forget()
+    except Exception:
+        pass   
+    try:
+            mylabelnf111.grid_forget()
+            mylabelnf12.grid_forget()
+            mylabelnf13.grid_forget()
+            mylabelnf14.grid_forget()
+            mylabelnf15.grid_forget()
+            mylabelnf16.grid_forget()
+            
+            mylabelnf211.grid_forget()
+            mylabelnf22.grid_forget()
+            mylabelnf23.grid_forget()
+            mylabelnf24.grid_forget()
+            mylabelnf25.grid_forget()
+            mylabelnf26.grid_forget()
+                        
+            mylabelnf311.grid_forget()
+            mylabelnf32.grid_forget()
+            mylabelnf33.grid_forget()
+            mylabelnf34.grid_forget()
+            mylabelnf35.grid_forget()
+            mylabelnf36.grid_forget()
+    except Exception:
+        pass 
+        
+    try:
+            mylabelKf111.grid_forget()
+            mylabelKf12.grid_forget()
+            mylabelKf13.grid_forget()
+            mylabelKf14.grid_forget()
+            mylabelKf15.grid_forget()
+            mylabelKf16.grid_forget()
+            
+            mylabelKf211.grid_forget()
+            mylabelKf22.grid_forget()
+            mylabelKf23.grid_forget()
+            mylabelKf24.grid_forget()
+            mylabelKf25.grid_forget()
+            mylabelKf26.grid_forget()
+                            
+            mylabelKf311.grid_forget()
+            mylabelKf32.grid_forget()
+            mylabelKf33.grid_forget()
+            mylabelKf34.grid_forget()
+            mylabelKf35.grid_forget()
+            mylabelKf36.grid_forget()
+    except Exception :
+        pass
+    try:
+            mylabelKef111.grid_forget()
+            mylabelKef12.grid_forget()
+            mylabelKef13.grid_forget()
+            mylabelKef14.grid_forget()
+            mylabelKef15.grid_forget()
+            mylabelKef16.grid_forget()
+            
+            mylabelKef211.grid_forget()
+            mylabelKef22.grid_forget()
+            mylabelKef23.grid_forget()
+            mylabelKef24.grid_forget()
+            mylabelKef25.grid_forget()
+            mylabelKef26.grid_forget()
+                            
+            mylabelKef311.grid_forget()
+            mylabelKef32.grid_forget()
+            mylabelKef33.grid_forget()
+            mylabelKef34.grid_forget()
+            mylabelKef35.grid_forget()
+            mylabelKef36.grid_forget()
+    except Exception:
         pass
 
