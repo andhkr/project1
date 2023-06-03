@@ -59,7 +59,7 @@ def DocList():
                     mylabelf22=Label(frame2,text='MBBS , MD(general medicine), DM(cardiology)',font=("Halvetica",15))
                     mylabelf23=Label(frame2,text='Cardiologist',font=("Halvetica",15))
                     mylabelf24=Label(frame2,text='Hospital : Multi speciality , kanjikode',font=("Halvetica",15))
-                    mylabelf25=Label(frame2,text='Time slot : 11 Am to 2pm , 7pm to 8 30 pm',font=("Halvetica",15))
+                    mylabelf25=Label(frame2,text='Time slot : 11 AM to 2pm , 7pm to 8 30 pm',font=("Halvetica",15))
                     mylabelf26=Label(frame2,text='Land line : 0491 2269896',font=("Halvetica",15))
                     
                     mylabelf311=Label(frame3,text='Dr Madhumita Ramesh',font=("Halvetica",15))
