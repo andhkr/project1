@@ -818,4 +818,100 @@ def DocList():
         mylabel1=Label(frame1,text=e,fg='Dark Red',font=("Halvetica",15))
         mylabel1.grid(row=0,column=0,columnspan=4,pady=10)
         prjt.configure(background='Red')
+        
+  def Clear():
+    location.delete(0,END)
+    Ds_Name.delete(0,END)
+    try:
+            mylabelf111.grid_forget()
+            mylabelf12.grid_forget()
+            mylabelf13.grid_forget()
+            mylabelf14.grid_forget()
+            mylabelf15.grid_forget()
+            mylabelf16.grid_forget()
+            
+            mylabelf211.grid_forget()
+            mylabelf22.grid_forget()
+            mylabelf23.grid_forget()
+            mylabelf24.grid_forget()
+            mylabelf25.grid_forget()
+            mylabelf26.grid_forget()
+                            
+            mylabelf311.grid_forget()
+            mylabelf32.grid_forget()
+            mylabelf33.grid_forget()
+            mylabelf34.grid_forget()
+            mylabelf35.grid_forget()
+            mylabelf36.grid_forget()
+    except Exception :
+        pass
+    try:
+            mylabelef111.grid_forget()
+            mylabelef12.grid_forget()
+            mylabelef13.grid_forget()
+            mylabelef14.grid_forget()
+            mylabelef15.grid_forget()
+            mylabelef16.grid_forget()
+            
+            mylabelef211.grid_forget()
+            mylabelef22.grid_forget()
+            mylabelef23.grid_forget()
+            mylabelef24.grid_forget()
+            mylabelef25.grid_forget()
+            mylabelef26.grid_forget()
+                            
+            mylabelef311.grid_forget()
+            mylabelef32.grid_forget()
+            mylabelef33.grid_forget()
+            mylabelef34.grid_forget()
+            mylabelef35.grid_forget()
+            mylabelef36.grid_forget()
+    except Exception:
+        pass
+    try:
+            mylabelgf111.grid_forget()
+            mylabelgf12.grid_forget()
+            mylabelgf13.grid_forget()
+            mylabelgf14.grid_forget()
+            mylabelgf15.grid_forget()
+            mylabelgf16.grid_forget()
+            
+            mylabelgf211.grid_forget()
+            mylabelgf22.grid_forget()
+            mylabelgf23.grid_forget()
+            mylabelgf24.grid_forget()
+            mylabelgf25.grid_forget()
+            mylabelgf26.grid_forget()
+                            
+            mylabelgf311.grid_forget()
+            mylabelgf32.grid_forget()
+            mylabelgf33.grid_forget()
+            mylabelgf34.grid_forget()
+            mylabelgf35.grid_forget()
+            mylabelgf36.grid_forget()
+    except Exception:
+        pass
+    try:
+            mylabelof111.grid_forget()
+            mylabelof12.grid_forget()
+            mylabelof13.grid_forget()
+            mylabelof14.grid_forget()
+            mylabelof15.grid_forget()
+            mylabelof16.grid_forget()
+            
+            mylabelof211.grid_forget()
+            mylabelof22.grid_forget()
+            mylabelof23.grid_forget()
+            mylabelof24.grid_forget()
+            mylabelof25.grid_forget()
+            mylabelof26.grid_forget()
+                            
+            mylabelof311.grid_forget()
+            mylabelof32.grid_forget()
+            mylabelof33.grid_forget()
+            mylabelof34.grid_forget()
+            mylabelof35.grid_forget()
+            mylabelof36.grid_forget()
+    except Exception:
+        pass
 
