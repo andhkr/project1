@@ -819,6 +819,7 @@ def DocList():
         mylabel1.grid(row=0,column=0,columnspan=4,pady=10)
         prjt.configure(background='#FFCCCB')
         
+# Creating Clear function to delete all entries on screen     
   def Clear():
     location.delete(0,END)
     Ds_Name.delete(0,END)
