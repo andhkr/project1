@@ -124,7 +124,7 @@ def DocList():
                     mylabelef22=Label(frame2,text='MBBS',font=("Halvetica",15))
                     mylabelef23=Label(frame2,text='EMERGENCY MEDICINE AND TRAUMA',font=("Halvetica",15))
                     mylabelef24=Label(frame2,text='Hospital : Multi speciality , Kanjikode',font=("Halvetica",15))
-                    mylabelef25=Label(frame2,text='Time slot: 10 Am to 2 pm',font=("Halvetica",15))
+                    mylabelef25=Label(frame2,text='Time slot: 10 AM to 2 PM',font=("Halvetica",15))
                     mylabelef26=Label(frame2,text='Land line : 0491 2390967',font=("Halvetica",15))
                     
                     mylabelef311=Label(frame3,text='Dr Hema Chandran',font=("Halvetica",15))
