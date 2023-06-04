@@ -380,7 +380,7 @@ def DocList():
             
                     mylabelnf211=Label(frame2,text='Dr Kalpana Mehan',bg='Light Blue',font=("Halvetica",15))
                     mylabelnf22=Label(frame2,text='MBBs , MS (ENT) , DNB',bg='Light Blue',font=("Halvetica",15))
-                    mylabelnf23=Label(frame2,text='ENT',font=("Halvetica",bg='Light Blue',15))
+                    mylabelnf23=Label(frame2,text='ENT',bg='Light Blue',font=("Halvetica",15))
                     mylabelnf24=Label(frame2,text='Hospital : Multi speciality , Kanjikode',bg='Light Blue',font=("Halvetica",15))
                     mylabelnf25=Label(frame2,text='Time slot: 11am to 1pm, 6pm to 7:30pm',bg='Light Blue',font=("Halvetica",15))
                     mylabelnf26=Label(frame2,text='Land line : 0491 2254967   ',bg='Light Blue',font=("Halvetica",15))
@@ -418,7 +418,7 @@ def DocList():
                 
                 else:
                     raise Exception('Please Enter Speciality among:'+'\n'+'Cardiologist'+'\n'+'General Physician'+'\n'+'Radiologist'+'\n'+'ENT'+'\n'+'Emergency Medicine Trauma'+'\n'+'Obstetrics and Gynaecologist')
-             elif location.get()=="Kozhikode":  
+            elif location.get()=="Kozhikode":  
                 if Ds_Name.get()=='Cardiologist':
                     global mylabelKf111
                     global mylabelKf12
@@ -915,7 +915,7 @@ def DocList():
             mylabelof36.grid_forget()
     except Exception:
          pass
-        try:
+    try:
             mylabelrf111.grid_forget()
             mylabelrf12.grid_forget()
             mylabelrf13.grid_forget()
