@@ -7,14 +7,14 @@ prjt.title('Doctors')
 iconi = PhotoImage(file='Images/doctor.png')  
 prjt.iconphoto(True, iconi)
 prjt.geometry('650x635')
-prjt.configure(background='Light Blue')
+prjt.configure(background='#D8BFD8')
 
 # Create Frame
-frame1=LabelFrame(prjt,padx=50)
+frame1=LabelFrame(prjt,bg='Light Blue',padx=50)
 frame1.grid(row=3,column=0,columnspan=4,pady=10,sticky=N+E+W+S)
-frame2=LabelFrame(prjt,padx=50)
+frame2=LabelFrame(prjt,bg='Light Blue',padx=50)
 frame2.grid(row=4,column=0,columnspan=4,pady=10,sticky=N+E+W+S)
-frame3=LabelFrame(prjt,padx=50,)
+frame3=LabelFrame(prjt,bg='Light Blue',padx=50)
 frame3.grid(row=5,column=0,columnspan=4,pady=10,sticky=N+E+W+S)
 
 
@@ -89,7 +89,7 @@ def DocList():
                     mylabelf34.grid(row=3,column=0,sticky=W)
                     mylabelf35.grid(row=4,column=0,sticky=W)
                     mylabelf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                     
                 elif Ds_Name.get()=='Emergency Medicien and Trauma':
                     global mylabelef111
@@ -154,7 +154,7 @@ def DocList():
                     mylabelef34.grid(row=3,column=0,sticky=W)
                     mylabelef35.grid(row=4,column=0,sticky=W)
                     mylabelef36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                             
                 elif Ds_Name.get()=='General Physician':
                     global mylabelgf111
@@ -219,7 +219,7 @@ def DocList():
                     mylabelgf34.grid(row=3,column=0,sticky=W)
                     mylabelgf35.grid(row=4,column=0,sticky=W)
                     mylabelgf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                     
                 elif Ds_Name.get()=='Obstetrics and Gynaecologist':
                     global mylabelof111
@@ -284,8 +284,8 @@ def DocList():
                     mylabelof34.grid(row=3,column=0,sticky=W)
                     mylabelof35.grid(row=4,column=0,sticky=W)
                     mylabelof36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
-                    elif Ds_Name.get()=='Radiologist':
+                    prjt.configure(background='#D8BFD8')
+                elif Ds_Name.get()=='Radiologist':
                     global mylabelrf111
                     global mylabelrf12
                     global mylabelrf13
@@ -348,7 +348,7 @@ def DocList():
                     mylabelrf34.grid(row=3,column=0,sticky=W)
                     mylabelrf35.grid(row=4,column=0,sticky=W)
                     mylabelrf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                 elif Ds_Name.get()=='ENT':
                     global mylabelnf111
                     global mylabelnf12
@@ -412,7 +412,7 @@ def DocList():
                     mylabelnf34.grid(row=3,column=0,sticky=W)
                     mylabelnf35.grid(row=4,column=0,sticky=W)
                     mylabelnf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                                         
     
                 
@@ -482,7 +482,7 @@ def DocList():
                     mylabelKf34.grid(row=3,column=0,sticky=W)
                     mylabelKf35.grid(row=4,column=0,sticky=W)
                     mylabelKf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                     
                 elif Ds_Name.get()=='Emergency Medicien and Trauma':
                     global mylabelKef111
@@ -612,7 +612,7 @@ def DocList():
                     mylabelKgf34.grid(row=3,column=0,sticky=W)
                     mylabelKgf35.grid(row=4,column=0,sticky=W)
                     mylabelKgf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                     
                 elif Ds_Name.get()=='Obstetrics and Gynaecologist':
                     global mylabelKof111
@@ -677,7 +677,7 @@ def DocList():
                     mylabelKof34.grid(row=3,column=0,sticky=W)
                     mylabelKof35.grid(row=4,column=0,sticky=W)
                     mylabelKof36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                     
                 elif Ds_Name.get()=='Radiologist':
                     global mylabelKrf111
@@ -742,7 +742,7 @@ def DocList():
                     mylabelKrf34.grid(row=3,column=0,sticky=W)
                     mylabelKrf35.grid(row=4,column=0,sticky=W)
                     mylabelKrf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
                 elif Ds_Name.get()=='ENT':
                     global mylabelKnf111
                     global mylabelKnf12
@@ -806,7 +806,7 @@ def DocList():
                     mylabelKnf34.grid(row=3,column=0,sticky=W)
                     mylabelKnf35.grid(row=4,column=0,sticky=W)
                     mylabelKnf36.grid(row=5,column=0,sticky=W)
-                    prjt.configure(background='Light Blue')
+                    prjt.configure(background='#D8BFD8')
 # Raising Exception if the Doctors with inputed Speciality are not availabe and by that telling the user that which type of specialists are availabe.
                 else:
                     raise Exception('Please Enter Speciality among:'+'\n'+'Cardiologist'+'\n'+'General Physician'+'\n'+'Radiologist'+'\n'+'ENT'+'\n'+'Emergency Medicine Trauma'+'\n'+'Obstetrics and Gynaecologist')  
@@ -1106,24 +1106,24 @@ def DocList():
     
 
 # Create Entry boxexs
-location=Entry(prjt,width=20)
+location=Entry(prjt,width=32,bg='Light Blue')
 location.grid(row=0,column=1,pady=5)
-Ds_Name=Entry(prjt,width=20)
+Ds_Name=Entry(prjt,width=33,bg='Light Blue')
 Ds_Name.grid(row=0,column=3,pady=5)
 
 # # creating labels
-loctl=Label(prjt,text='Location')
+loctl=Label(prjt,text='Location',font=("Halvetica",10,'bold'),bg='Light Blue')
 loctl.grid(row=0,column=0,pady=5)
-Ds=Label(prjt,text='Doctor Speciality')
+Ds=Label(prjt,text='Doctor Speciality',font=("Halvetica",10,'bold'),bg='Light Blue')
 Ds.grid(row=0,column=2,pady=5)
 
 
 
 # create buttons
-Sbtn=Button(prjt,text='Search',command=DocList)
+Sbtn=Button(prjt,text='Search',font=("Halvetica",10,'bold'),command=DocList)
 Sbtn.grid(row=1,column=0,columnspan=4,pady=10,ipadx=202)
 
-okbtn=Button(prjt,text='Ok',command=Clear)
+okbtn=Button(prjt,text='Ok',bg='#E4A0F7',font=("Halvetica",10,'bold'),command=Clear)
 okbtn.grid(row=6,column=0,columnspan=4,pady=10)
     
 
