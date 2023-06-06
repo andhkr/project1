@@ -349,7 +349,7 @@ def DocList():
                     mylabelrf35.grid(row=4,column=0,sticky=W)
                     mylabelrf36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
-                elif Ds_Name.get()=='ENT' or 'ent:
+                elif Ds_Name.get()=='ENT' or 'ent':
                     global mylabelnf111
                     global mylabelnf12
                     global mylabelnf13
@@ -820,7 +820,7 @@ def DocList():
         prjt.configure(background='#FFCCCB')
         
 # Creating Clear function to delete all entries on screen     
-  def Clear():
+def Clear():
     location.delete(0,END)
     Ds_Name.delete(0,END)
     try:
