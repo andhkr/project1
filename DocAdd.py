@@ -4,7 +4,7 @@ from PIL import ImageTk,Image
 prjt = Tk()
 
 prjt.title('Doctors')
-iconi = PhotoImage(file='Images/doctor.png')  
+iconi = PhotoImage(file='doctor.png')  
 prjt.iconphoto(True, iconi)
 prjt.geometry('650x635')
 prjt.configure(background='#D8BFD8')
@@ -24,9 +24,9 @@ def DocList():
     
 
     try:
-        if location.get()=="Palakkad" or "Kozhikode" or "palakkad" or "kozhikode":
-            if location.get()=="Palakkad" or "palakkad" :
-                if Ds_Name.get()=='Cardiologist' or 'cardiologist':
+        if location.get().lower()=="palakkad" or location.get().lower()== "kozhikode":
+            if location.get().lower()=="palakkad" :
+                if Ds_Name.get().lower()=='cardiologist':
                     global mylabelf111
                     global mylabelf12
                     global mylabelf13
@@ -91,7 +91,7 @@ def DocList():
                     mylabelf36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
                     
-                elif Ds_Name.get()=='Emergency Medicien and Trauma' or 'emergency medicien and trauma':
+                elif Ds_Name.get().lower()=='emergency medicien and trauma':
                     global mylabelef111
                     global mylabelef12
                     global mylabelef13
@@ -156,7 +156,7 @@ def DocList():
                     mylabelef36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
                             
-                elif Ds_Name.get()=='General Physician' or 'general physician':
+                elif Ds_Name.get().lower()=='general physician':
                     global mylabelgf111
                     global mylabelgf12
                     global mylabelgf13
@@ -221,7 +221,7 @@ def DocList():
                     mylabelgf36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
                     
-                elif Ds_Name.get()=='Obstetrics and Gynaecologist' or 'obstetrics and gynaecologist':
+                elif Ds_Name.get().lower()=='obstetrics' or Ds_Name.get().lower()=='gynaecologist':
                     global mylabelof111
                     global mylabelof12
                     global mylabelof13
@@ -285,7 +285,7 @@ def DocList():
                     mylabelof35.grid(row=4,column=0,sticky=W)
                     mylabelof36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
-                elif Ds_Name.get()=='Radiologist' or 'radiologist':
+                elif Ds_Name.get().lower()=='radiologist':
                     global mylabelrf111
                     global mylabelrf12
                     global mylabelrf13
@@ -349,7 +349,7 @@ def DocList():
                     mylabelrf35.grid(row=4,column=0,sticky=W)
                     mylabelrf36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
-                elif Ds_Name.get()=='ENT' or 'ent':
+                elif Ds_Name.get().lower()=='ent':
                     global mylabelnf111
                     global mylabelnf12
                     global mylabelnf13
@@ -418,8 +418,8 @@ def DocList():
                 
                 else:
                     raise Exception('Please Enter Speciality among:'+'\n'+'Cardiologist'+'\n'+'General Physician'+'\n'+'Radiologist'+'\n'+'ENT'+'\n'+'Emergency Medicine Trauma'+'\n'+'Obstetrics and Gynaecologist')
-            elif location.get()=="Kozhikode" or "kozhikode":  
-                if Ds_Name.get()=='Cardiologist' or 'cardiologist':
+            elif location.get().lower()=="kozhikode":  
+                if Ds_Name.get().lower()=='cardiologist':
                     global mylabelKf111
                     global mylabelKf12
                     global mylabelKf13
@@ -484,7 +484,7 @@ def DocList():
                     mylabelKf36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
                     
-                elif Ds_Name.get()=='Emergency Medicien and Trauma' or 'emergency medicien and trauma':
+                elif Ds_Name.get().lower()=='emergency medicien and trauma':
                     global mylabelKef111
                     global mylabelKef12
                     global mylabelKef13
@@ -549,7 +549,7 @@ def DocList():
                     mylabelKef36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
                             
-                elif Ds_Name.get()=='General Physician' or 'general physician':
+                elif Ds_Name.get().lower()=='general physician':
                     global mylabelKgf111
                     global mylabelKgf12
                     global mylabelKgf13
@@ -614,7 +614,7 @@ def DocList():
                     mylabelKgf36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
                     
-                elif Ds_Name.get()=='Obstetrics and Gynaecologist' or 'obstetrics and gynaecologist':
+                elif Ds_Name.get().lower()=='obstetrics' or Ds_Name.get().lower()== 'gynaecologist':
                     global mylabelKof111
                     global mylabelKof12
                     global mylabelKof13
@@ -679,7 +679,7 @@ def DocList():
                     mylabelKof36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
                     
-                elif Ds_Name.get()=='Radiologist' or 'radiologist':
+                elif Ds_Name.get().lower()=='radiologist':
                     global mylabelKrf111
                     global mylabelKrf12
                     global mylabelKrf13
@@ -743,7 +743,7 @@ def DocList():
                     mylabelKrf35.grid(row=4,column=0,sticky=W)
                     mylabelKrf36.grid(row=5,column=0,sticky=W)
                     prjt.configure(background='#D8BFD8')
-                elif Ds_Name.get()=='ENT' or 'ent':
+                elif Ds_Name.get().lower()=='ent':
                     global mylabelKnf111
                     global mylabelKnf12
                     global mylabelKnf13
