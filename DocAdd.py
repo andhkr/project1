@@ -813,6 +813,8 @@ def DocList():
 # Raising Exception if the inputed city's data is not available and telling to user that please use these given city: 
             else:
                 raise Exception('Please Enter City:'+'\n'+'Palakkad'+'\n'+'Kozhikode')
+        else:
+            raise Exception('Please Enter City:'+'\n'+'Palakkad'+'\n'+'Kozhikode')
     except  Exception as e:
         global mylabel1
         mylabel1=Label(frame1,text=e,bg='Light Blue',fg='Dark Red',font=("Halvetica",15))
