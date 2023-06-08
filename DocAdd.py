@@ -4,8 +4,8 @@ from PIL import ImageTk, Image
 prjt = Tk()
 
 prjt.title("Doctors")
-# iconi = PhotoImage(file='doctor.png')
-# prjt.iconphoto(True, iconi)
+iconi = PhotoImage(file='doctor.png')
+prjt.iconphoto(True, iconi)
 prjt.geometry("650x635")
 prjt.configure(background="#D8BFD8")
 
