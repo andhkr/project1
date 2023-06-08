@@ -2199,7 +2199,7 @@ Ds.grid(row=0, column=2, pady=5)
 
 # create buttons
 Sbtn = Button(prjt, text="Search", font=("Halvetica", 10, "bold"), command=DocList)
-Sbtn.grid(row=1, column=0, columnspan=4, pady=10, ipadx=202)
+Sbtn.grid(row=1, column=0, columnspan=4, pady=10, ipadx=290)
 
 okbtn = Button(
     prjt, text="Ok", bg="#E4A0F7", font=("Halvetica", 10, "bold"), command=Clear
